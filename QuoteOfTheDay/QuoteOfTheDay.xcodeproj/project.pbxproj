@@ -12,6 +12,7 @@
 		F10108F424C658A300E7AE63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10108F224C658A300E7AE63 /* Main.storyboard */; };
 		F10108F624C658A300E7AE63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10108F524C658A300E7AE63 /* Assets.xcassets */; };
 		F10108F924C658A300E7AE63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10108F724C658A300E7AE63 /* LaunchScreen.storyboard */; };
+		F101090524C65E9F00E7AE63 /* logo-coruja.png in Resources */ = {isa = PBXBuildFile; fileRef = F101090424C65E9E00E7AE63 /* logo-coruja.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F10108F524C658A300E7AE63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F10108F824C658A300E7AE63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F10108FA24C658A300E7AE63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F101090424C65E9E00E7AE63 /* logo-coruja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-coruja.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F10108ED24C658A300E7AE63 /* QuoteOfTheDay */ = {
 			isa = PBXGroup;
 			children = (
+				F101090424C65E9E00E7AE63 /* logo-coruja.png */,
 				F10108EE24C658A300E7AE63 /* AppDelegate.swift */,
 				F10108F024C658A300E7AE63 /* ViewController.swift */,
 				F10108F224C658A300E7AE63 /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F101090524C65E9F00E7AE63 /* logo-coruja.png in Resources */,
 				F10108F924C658A300E7AE63 /* LaunchScreen.storyboard in Resources */,
 				F10108F624C658A300E7AE63 /* Assets.xcassets in Resources */,
 				F10108F424C658A300E7AE63 /* Main.storyboard in Resources */,
