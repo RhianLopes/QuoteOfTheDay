@@ -29,7 +29,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seja foda pq sim pq tu é foda é é us guri feitoria pq sim mas ta valendo pq vamo que vamo!!!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wl1-Xe-tdi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="O único lugar que o sucesso vem antes do trabalho é no dicionário. (Vidal Sasson)" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wl1-Xe-tdi">
                                 <rect key="frame" x="52" y="355" width="314" height="237"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="28"/>
@@ -65,6 +65,9 @@
                                 <state key="normal" title="Nova Frase">
                                     <color key="titleColor" red="0.11572270937575646" green="0.34923079034998661" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="renderNextQuote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QIX-nf-RiY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -72,6 +75,7 @@
                     </view>
                     <connections>
                         <outlet property="nextQuoteButton" destination="8U8-7C-Onw" id="TkW-Pe-ZhN"/>
+                        <outlet property="quote" destination="wl1-Xe-tdi" id="cjR-cn-sS4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
